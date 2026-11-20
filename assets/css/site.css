@@ -1,12 +1,13 @@
 /* Shared foundation for Home, Knowledge and Ideas. Product layouts stay local. */
 :root {
-  --site-background: #fbfbf8;
+  --site-background: #fff5f8;
   --site-surface: #ffffff;
-  --site-ink: #292e2a;
-  --site-muted: #686f66;
-  --site-line: #e0e4db;
-  --site-accent: #596b45;
-  --site-soft: #eef1e6;
+  --site-ink: #5a4452;
+  --site-muted: #a98a99;
+  --site-line: #f3d6e4;
+  --site-accent: #ff7aa2;
+  --site-accent-deep: #e85d8a;
+  --site-soft: #ffe3ee;
   --site-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
   --site-serif: Georgia, 'Iowan Old Style', 'Songti SC', 'STSong', serif;
   --site-width: 1120px;
@@ -46,13 +47,15 @@ body { background: var(--site-background); color: var(--site-ink); font-family: 
 .site-header nav a:hover, .site-header nav a[aria-current] { color: var(--site-ink); }
 .site-header nav a[aria-current] { text-decoration: underline; text-underline-offset: 7px; text-decoration-thickness: 1px; text-decoration-color: var(--site-accent); }
 .site-header nav a[aria-current]::after { content: none; }
+.lang-toggle { background: var(--site-soft); color: var(--site-accent-deep); border: 1px solid var(--site-line); border-radius: 999px; padding: 5px 14px; font: inherit; font-size: 12px; cursor: pointer; transition: background .15s, color .15s; }
+.lang-toggle:hover { background: var(--site-accent); color: #fff; }
 .section-nav { display: flex; flex-wrap: wrap; gap: 24px; padding-block: 13px; font-size: 12px; border-bottom: 1px solid var(--site-line); }
 .section-nav a { color: var(--site-muted); }
 .section-nav a[aria-current], .section-nav a:hover { color: var(--site-accent); }
 body > footer { padding-block: 24px; margin-top: 64px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px 24px; border-top: 1px solid var(--site-line); color: var(--site-muted); font-size: 12px; }
 body > footer a:hover { color: var(--site-accent); }
 a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible, select:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--site-accent); outline-offset: 4px; }
-::selection { background: #dde5ce; }
+::selection { background: #ffc6db; }
 @media (max-width: 700px) {
   .site-header, body > main, body > footer, .section-nav { width: calc(100% - 40px); padding-inline: 0; }
   .site-header { min-height: 68px; padding-block: 16px; gap: 10px 20px; }

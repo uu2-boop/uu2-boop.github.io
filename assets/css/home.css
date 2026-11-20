@@ -16,9 +16,9 @@ p { margin-bottom: 16px; }
 .profile-copy > p:not(.byline) { max-width: 660px; }
 .profile-copy strong { font-weight: 600; }
 .profile-photo { margin: 4px 0 0; }
-.profile-photo img { width: 156px; border-radius: 3px; }
+.profile-photo img { width: 156px; border-radius: 50%; box-shadow: 0 4px 18px rgba(255, 122, 162, .28); }
 .contact-links { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 22px; font-size: 13px; }
-.contact-links a, .inline-link { text-decoration: underline; text-decoration-color: #b0b9a9; text-underline-offset: 4px; text-decoration-thickness: 1px; }
+.contact-links a, .inline-link { text-decoration: underline; text-decoration-color: #e8c3d4; text-underline-offset: 4px; text-decoration-thickness: 1px; }
 .contact-links a:hover, .inline-link:hover { text-decoration-color: var(--site-accent); }
 .home-section { display: grid; grid-template-columns: 164px minmax(0, 1fr); gap: 34px; border-top: 1px solid var(--site-line); padding: 30px 0; }
 .section-title { margin: 3px 0 0; font-size: 14px; color: var(--site-muted); letter-spacing: 0; }

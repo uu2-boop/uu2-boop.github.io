@@ -7,114 +7,116 @@
   <meta name="description" content="大数据管理与应用专业大一学生朱炼仪的中文简历。课程使用的虚构示例。">
   <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon.png?v=20260922">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=20260922">
-  <link rel="stylesheet" href="/assets/css/home.css?v=20261119b">
+  <link rel="stylesheet" href="/assets/css/home.css?v=20261119c">
   <link rel="stylesheet" href="/assets/css/site.css?v=20260920">
 </head>
 <body>
-  <a class="skip" href="#main">跳至正文</a>
+  <a class="skip" href="#main" data-i18n="skip">跳至正文</a>
   <header class="site-header">
     <a class="brand" href="/">朱炼仪</a>
     <nav aria-label="主导航">
-      <a href="/" aria-current="page">首页</a>
-      <a href="/knowledge/">学习笔记</a>
-      <a href="/ideas/">随想</a>
+      <a href="/" aria-current="page" data-i18n="nav.home">首页</a>
+      <a href="/knowledge/" data-i18n="nav.notes">学习笔记</a>
+      <a href="/ideas/" data-i18n="nav.ideas">随想</a>
+      <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch language">English</button>
     </nav>
   </header>
   <main id="main">
     <section class="profile" aria-labelledby="name">
       <div class="profile-copy">
         <h1 id="name">朱炼仪</h1>
-        <p class="byline">大数据管理与应用 · 2026 级大一本科生</p>
-        <p>我在广东科技学院学习数据可视化与数据库，想把零散的业务记录整理成可以解释、可以复查的分析结果。</p>
-        <p>现阶段目标是扎实学好专业基础，积极参加课程实训和调研实践，慢慢积累数据分析相关能力；长远希望进入新能源、制造行业，成长为能够独当一面的项目负责人。</p>
-        <p>课程示例：人物、学校、经历与联系方式均为虚构。</p>
-        <div class="contact-links"><a href="#honors">荣誉证书</a><a href="#goal">目标岗位</a><a href="#contact">联系方式</a></div>
+        <p class="byline" data-i18n="profile.byline">大数据管理与应用 · 2026 级大一本科生</p>
+        <p data-i18n="profile.intro">我在广东科技学院学习数据可视化与数据库，想把零散的业务记录整理成可以解释、可以复查的分析结果。</p>
+        <p data-i18n="profile.goal">现阶段目标是扎实学好专业基础，积极参加课程实训和调研实践，慢慢积累数据分析相关能力；长远希望进入新能源、制造行业，成长为能够独当一面的项目负责人。</p>
+        <p data-i18n="profile.disclaimer">课程示例：人物、学校、经历与联系方式均为虚构。</p>
+        <div class="contact-links"><a href="#honors" data-i18n="link.honors">荣誉证书</a><a href="#goal" data-i18n="link.goal">目标岗位</a><a href="#contact" data-i18n="link.contact">联系方式</a></div>
       </div>
       <figure class="profile-photo">
-        <img src="/assets/img/avatar.jpg" alt="朱炼仪的头像" width="1082" height="1082">
+        <img src="/assets/img/avatar.jpg" alt="朱炼仪的头像" width="1082" height="1082" data-i18n-alt="profile.avatarAlt">
       </figure>
     </section>
     <section class="home-section" aria-labelledby="notes-heading">
-      <h2 class="section-title" id="notes-heading">学习笔记</h2>
+      <h2 class="section-title" id="notes-heading" data-i18n="notes.title">学习笔记</h2>
       <div class="section-content notebooks">
         <a class="notebook" href="/knowledge/notes/local-web-preview/">
-          <h3>在 WSL 中预览本地网页 ↗</h3>
-          <p>记录从项目目录启动服务、在浏览器访问以及停止服务的方法。</p>
+          <h3 data-i18n="notes.note1.title">在 WSL 中预览本地网页 ↗</h3>
+          <p data-i18n="notes.note1.desc">记录从项目目录启动服务、在浏览器访问以及停止服务的方法。</p>
         </a>
       </div>
     </section>
     <section class="home-section" id="honors" aria-labelledby="honors-heading">
-      <h2 class="section-title" id="honors-heading">荣誉证书</h2>
+      <h2 class="section-title" id="honors-heading" data-i18n="honors.title">荣誉证书</h2>
       <div class="section-content">
         <article class="work-entry">
-          <div class="entry-heading"><h3>挑战杯 院级优秀奖</h3></div>
+          <div class="entry-heading"><h3 data-i18n="honors.h1">挑战杯 院级优秀奖</h3></div>
         </article>
         <article class="work-entry">
-          <div class="entry-heading"><h3>第二届 AI 网页设计大赛 · 三等奖</h3></div>
+          <div class="entry-heading"><h3 data-i18n="honors.h2">第二届 AI 网页设计大赛 · 三等奖</h3></div>
         </article>
       </div>
     </section>
     <section class="home-section" aria-labelledby="evaluation-heading">
-      <h2 class="section-title" id="evaluation-heading">自我评价</h2>
+      <h2 class="section-title" id="evaluation-heading" data-i18n="evaluation.title">自我评价</h2>
       <div class="section-content">
-        <p>本人学习态度端正，做事细心有耐心，具备良好的信息整理能力。</p>
-        <p>作为大数据管理与应用专业新生，我正在夯实 Python、Excel 等基础技能，对数据分析方向抱有浓厚兴趣。</p>
-        <p>善于倾听、团队协作，对待任务认真负责，愿意持续学习新知识，不断提升专业能力。</p>
+        <p data-i18n="evaluation.p1">本人学习态度端正，做事细心有耐心，具备良好的信息整理能力。</p>
+        <p data-i18n="evaluation.p2">作为大数据管理与应用专业新生，我正在夯实 Python、Excel 等基础技能，对数据分析方向抱有浓厚兴趣。</p>
+        <p data-i18n="evaluation.p3">善于倾听、团队协作，对待任务认真负责，愿意持续学习新知识，不断提升专业能力。</p>
       </div>
     </section>
     <section class="home-section" id="goal" aria-labelledby="goal-heading">
-      <h2 class="section-title" id="goal-heading">目标岗位</h2>
+      <h2 class="section-title" id="goal-heading" data-i18n="goal.title">目标岗位</h2>
       <div class="section-content goal">
-        <h3 class="goal-role">数据分析师</h3>
+        <h3 class="goal-role" data-i18n="goal.role">数据分析师</h3>
 
         <div class="goal-block">
-          <h4>当前基础</h4>
+          <h4 data-i18n="goal.base">当前基础</h4>
           <ul class="goal-list">
-            <li><strong>Excel：</strong>掌握基础数据整理与表格统计，完成课堂数据录入与汇总作业。</li>
-            <li><strong>Python：</strong>掌握基础语法，能写简单的循环、分支代码，完成课堂编程练习。</li>
+            <li data-i18n="goal.base.excel"><strong>Excel：</strong>掌握基础数据整理与表格统计，完成课堂数据录入与汇总作业。</li>
+            <li data-i18n="goal.base.python"><strong>Python：</strong>掌握基础语法，能写简单的循环、分支代码，完成课堂编程练习。</li>
           </ul>
         </div>
 
         <div class="goal-block">
-          <h4>希望补齐的能力</h4>
+          <h4 data-i18n="goal.gap">希望补齐的能力</h4>
           <ul class="goal-list">
-            <li><strong>数据可视化：</strong>通过 Python 数据分析课程与实训项目学习 Matplotlib，学会绘制图表。</li>
-            <li><strong>数据库基础：</strong>学习 MySQL 课程，掌握数据增删改查，学会存储和调取数据。</li>
+            <li data-i18n="goal.gap.viz"><strong>数据可视化：</strong>通过 Python 数据分析课程与实训项目学习 Matplotlib，学会绘制图表。</li>
+            <li data-i18n="goal.gap.db"><strong>数据库基础：</strong>学习 MySQL 课程，掌握数据增删改查，学会存储和调取数据。</li>
           </ul>
         </div>
 
         <div class="goal-block">
-          <h4>计划项目</h4>
+          <h4 data-i18n="goal.projects">计划项目</h4>
           <article class="work-entry">
-            <div class="entry-heading"><h3>大一 · 校园问卷数据统计分析</h3></div>
-            <p class="role">整理班级调研问卷，分析问卷结果</p>
-            <p>做法：用 Python + Excel 清洗问卷数据，制作可视化图表。</p>
-            <p class="result">产出：数据分析报告、可视化网页。</p>
+            <div class="entry-heading"><h3 data-i18n="goal.p1.title">大一 · 校园问卷数据统计分析</h3></div>
+            <p class="role" data-i18n="goal.p1.role">整理班级调研问卷，分析问卷结果</p>
+            <p data-i18n="goal.p1.how">做法：用 Python + Excel 清洗问卷数据，制作可视化图表。</p>
+            <p class="result" data-i18n="goal.p1.out">产出：数据分析报告、可视化网页。</p>
           </article>
           <article class="work-entry">
-            <div class="entry-heading"><h3>大二 · 新能源行业公开数据小分析</h3></div>
-            <p class="role">简单分析新能源相关公开数据</p>
-            <p>做法：查找公开数据集，用 Python 做数据清洗、绘制趋势图。</p>
-            <p class="result">产出：数据清洗脚本、可视化分析页面。</p>
+            <div class="entry-heading"><h3 data-i18n="goal.p2.title">大二 · 新能源行业公开数据小分析</h3></div>
+            <p class="role" data-i18n="goal.p2.role">简单分析新能源相关公开数据</p>
+            <p data-i18n="goal.p2.how">做法：查找公开数据集，用 Python 做数据清洗、绘制趋势图。</p>
+            <p class="result" data-i18n="goal.p2.out">产出：数据清洗脚本、可视化分析页面。</p>
           </article>
         </div>
 
         <div class="goal-block">
-          <h4>四年行动</h4>
+          <h4 data-i18n="goal.timeline">四年行动</h4>
           <ul class="timeline">
-            <li><strong>大一：</strong>完成 Python 基础、Excel 数据处理练习，做完问卷数据分析小项目。</li>
-            <li><strong>大二：</strong>学习数据库，完成新能源公开数据的分析项目。</li>
-            <li><strong>大三：</strong>完成一份行业数据分析作品，练习数据报告撰写。</li>
-            <li><strong>大四：</strong>整理作品集，准备面试，争取进入制造/新能源相关企业实习。</li>
+            <li data-i18n="goal.t1"><strong>大一：</strong>完成 Python 基础、Excel 数据处理练习，做完问卷数据分析小项目。</li>
+            <li data-i18n="goal.t2"><strong>大二：</strong>学习数据库，完成新能源公开数据的分析项目。</li>
+            <li data-i18n="goal.t3"><strong>大三：</strong>完成一份行业数据分析作品，练习数据报告撰写。</li>
+            <li data-i18n="goal.t4"><strong>大四：</strong>整理作品集，准备面试，争取进入制造/新能源相关企业实习。</li>
           </ul>
         </div>
       </div>
     </section>
     <section class="home-section" id="contact" aria-labelledby="contact-heading">
-      <h2 class="section-title" id="contact-heading">联系方式</h2>
-      <div class="section-content"><p>邮箱：<a href="mailto:2182118113@qq.com">2182118113@qq.com</a></p></div>
+      <h2 class="section-title" id="contact-heading" data-i18n="contact.title">联系方式</h2>
+      <div class="section-content"><p><span data-i18n="contact.email">邮箱：</span><a href="mailto:2182118113@qq.com">2182118113@qq.com</a></p></div>
     </section>
   </main>
-  <footer><span>© 2026 朱炼仪 · 课程虚构示例</span><a href="#main">返回正文</a></footer>
+  <footer><span data-i18n="footer.copy">© 2026 朱炼仪 · 课程虚构示例</span><a href="#main" data-i18n="footer.back">返回正文</a></footer>
+  <script src="/assets/i18n.js?v=1"></script>
 </body>
 </html>
