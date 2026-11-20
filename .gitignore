@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+*.pyc
+.knowledge-local/
+.ideas-local/
+# 误产生的项目嵌套副本，不发布
+blog/resume-reference/
